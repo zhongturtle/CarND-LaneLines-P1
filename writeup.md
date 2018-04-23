@@ -45,3 +45,10 @@ So I ask many friends and google it for bunch of time.Finally it works pretty go
 A possible improvement would be to let the line_detection much precisely which means I hope it can got the line stably rather than the lines our code maked go up and down frequently
 
 Another potential improvement could be to make parameter selection automatically which means I shouldn't fine tune it again and make the thing about choosing the parameters sense
+
+### Reference
+- https://docs.opencv.org/3.1.0/de/d25/imgproc_color_conversions.html
+- https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/hough_lines/hough_lines.html
+- https://github.com/jaebaek/CarND-LaneLines-P1
+- https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html
+- https://www.learnopencv.com/read-write-and-display-a-video-using-opencv-cpp-python/
