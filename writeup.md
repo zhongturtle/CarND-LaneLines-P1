@@ -34,13 +34,14 @@ Here is the result:
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+First, I assumed many things which means ther will be lots of bounding for my works. For example, I guess the line will always be white, but it isn't in fact. So my works was terrible in the begining.
 
-Another shortcoming could be ...
+Second, I fine tune parameters. I rewrite the parameters of canny many times and still didn't get a perfect result.
+So I ask many friends and google it for bunch of time.Finally it works pretty good.Also I got troble about tell the white lane and otherthing(ex. white car)So my Hough function works not well
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to let the line_detection much precisely which means I hope it can got the line stably rather than the lines our code maked go up and down frequently
 
-Another potential improvement could be to ...
+Another potential improvement could be to make parameter selection automatically which means I shouldn't fine tune it again and make the thing about choosing the parameters sense
