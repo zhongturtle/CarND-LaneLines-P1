@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 
 [solidwhite]: ./test_images_output/solidWhiteRight_result.jpg
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[solidYellowLeft]: ./test_images_out/solidYellowLeft_result.jpg
+[solidYellowLeft]: ./test_images_output/solidYellowLeft_result.jpg
 ---
 
 ### Reflection
