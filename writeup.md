@@ -12,8 +12,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [solidwhite]: ./test_images_output/solidWhiteRight_result.jpg
-[image1]: ./examples/grayscale.jpg "Grayscale"
 [solidYellowLeft]: ./test_images_output/solidYellowLeft_result.jpg
+
 ---
 
 ### Reflection
