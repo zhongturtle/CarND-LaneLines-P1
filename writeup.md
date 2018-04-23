@@ -19,13 +19,15 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps.
+First, I converted the images to grayscale, then I apply Gaussian smoothing to blur the image.
+After these two thing , I do the Canny algorithm to detect the edge.
+After all , I create maked edges image 
+At last step , I use hough_line to make the image with line on it and use the function called weighted_img to adjust the image.
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by detect the slpoe of both side which maybe a line 
+Here is the result:
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
+![alt text][test_images_out/solidYellowLeft_result.jpg]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
