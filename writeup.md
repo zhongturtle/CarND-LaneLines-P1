@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-
+[solidYellowLeft] : ./test_images_out/solidYellowLeft_result.jpg
 ---
 
 ### Reflection
@@ -27,7 +27,7 @@ At last step , I use hough_line to make the image with line on it and use the fu
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by detect the slpoe of both side which maybe a line 
 Here is the result:
 
-![alt text][test_images_out/solidYellowLeft_result.jpg]
+![alt text][solidYellowLeft]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
